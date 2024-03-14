@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3S
 from parent_class import Animal
 
 
@@ -20,7 +20,7 @@ class Fish(Animal):
         return self.age * 2
 
     def print_animal(self):
-        print(f'Child method: {self}, I swim in river!')
+        print(f'Child method: {type(self).__name__}, I swim in river!')
 
 
 if __name__ == "__main__":

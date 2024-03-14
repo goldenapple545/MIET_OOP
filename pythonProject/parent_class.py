@@ -13,4 +13,4 @@ class Animal(ABC):
         pass
 
     def print_animal(self):
-        print(f'Parent method: {self}')
+        print(f'Parent method: {type(self).__name__}, do something')
